@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: app-release.apk
-          path: ../android/app/build/outputs/apk/release/
+          path: node_modules/@g33n/rn-mma-core/android/app/build/outputs/apk/release/
