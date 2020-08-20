@@ -680,12 +680,15 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@g33n/rn-mma-core@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@g33n/rn-mma-core/-/rn-mma-core-0.9.0.tgz#2017d930075df67779b2336aec5d1b72d9e7875e"
-  integrity sha512-ZG0QCixryouejMerCL7A7MqCd6aLrHcYQPqIQZWu4InL84A/oDRonmI3sRfiKitWNZm6rTloLWvwzdFRTQGRqA==
+"@g33n/rn-mma-core@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@g33n/rn-mma-core/-/rn-mma-core-0.11.0.tgz#52e5beba1d6c5c89828d3e4cefb52f1dc0080e5d"
+  integrity sha512-jVdbQeCo4sUVdCotiDrvJZr7NZVMGdPWBFre8t3eGkO/HkF1DwkFZVi7T6FdPc3xifdRtC3F5ixvmzkolXj0tA==
   dependencies:
     "@react-native-community/cli" "^4.12.0"
+    "@react-native-community/cli-platform-android" "^4.11.0"
+    "@react-native-community/cli-platform-ios" "^4.11.0"
+    "@react-native-community/cli-types" "^4.10.1"
     colors "^1.4.0"
     commander "^6.0.0"
     inquirer "^7.3.3"
@@ -786,7 +789,7 @@
   dependencies:
     serve-static "^1.13.1"
 
-"@react-native-community/cli-platform-android@^4.7.0":
+"@react-native-community/cli-platform-android@^4.11.0", "@react-native-community/cli-platform-android@^4.7.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-4.11.0.tgz#0ce9b88ed8b6b0ef962af49d980eb53433c17a84"
   integrity sha512-BzqocGjOCjpDW0bM/LUrHMXw4nBvOhDXnHWxaoRp3eeUVsD2oSegoRn52kZo9yhPb9cCPkZJ3b+Web71Ue4j9w==
@@ -802,7 +805,7 @@
     slash "^3.0.0"
     xmldoc "^1.1.2"
 
-"@react-native-community/cli-platform-ios@^4.7.0":
+"@react-native-community/cli-platform-ios@^4.11.0", "@react-native-community/cli-platform-ios@^4.7.0":
   version "4.11.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-ios/-/cli-platform-ios-4.11.0.tgz#5870bf5f2b3c01a0aa672a7c1f7f0fe13337c6b5"
   integrity sha512-/qkjnhhJ7BGBTNkHSS8a+z8UgWUQbU6YZOTuYxjNywGUzMiTsb/wlm2cWCY1VEAvWtY97c4plAZ5OferPJHaVA==
