@@ -1,0 +1,11 @@
+{
+  "name": "rn-mma-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/G33N/rn-mma-app.git",
+  "author": "Matias Celiz <mceliz@enlaceit.com.ar>",
+  "license": "MIT",
+  "dependencies": {
+    "@g33n/rn-mma-core": "^0.9.0"
+  }
+}
