@@ -26,9 +26,11 @@ jobs:
         uses: timheuer/base64-to-file@v1.0.3
         with:
           # Name of the file when written to temp location
-          fileName: "node_modules/@g33n/rn-mma-core/fastlane/play-store-key.json"
+          fileName: "play-store-key.json"
           # The base64 encoded string
           encodedString: ${{ secrets.FASTLANE_PLAYSTORE_API_JSON }}
+        run: |
+          cp play-store-key.json node_modules/@g33n/rn-mma-core/fastlane
       - name: Build Android Release
         run: |
           cd node_modules/@g33n/rn-mma-core/ && npm install && cd android/ && ./gradlew assembleRelease
